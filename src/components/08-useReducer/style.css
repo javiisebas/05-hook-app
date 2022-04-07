@@ -1,0 +1,31 @@
+body {
+    padding: 2rem;
+}
+
+p {
+    margin: 0;
+}
+
+.list-group-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+    background-color: rgb(241, 246, 255);
+    border: 1px solid cornflowerblue !important;
+    border-radius: .3rem !important;
+    margin-bottom: 1rem;
+}
+
+.list-group-item p {
+    cursor: pointer;
+}
+
+.complete {
+    text-decoration: line-through red;
+}
+
+.btn-block {
+    width: 100%;
+    display: block !important;
+}
